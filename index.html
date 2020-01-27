@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  html,
+  body,
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #585858;
+  }
+
+  a {
+    -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+    -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+    -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+    transition: border-bottom-color 0.2s ease, color 0.2s ease;
+    text-decoration: none;
+    color: #585858;
+    border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+  }
+
+  a:hover {
+    border-bottom-color: transparent;
+    color: #2ecc71 !important;
+  }
+
+  .mySlides {
+    display: none
+  }
+
+  .w3-tag,
+  .fa {
+    cursor: pointer
+  }
+
+  .w3-tag {
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    margin-top: 6px
+  }
+
+  .w3-flat-turquoise {
+    color: #fff;
+    background-color: #1abc9c
+  }
+
+  .w3-flat-emerald {
+    color: #fff;
+    background-color: #2ecc71
+  }
+
+  .w3-flat-peter-river {
+    color: #fff;
+    background-color: #3498db
+  }
+
+  .w3-flat-amethyst {
+    color: #fff;
+    background-color: #9b59b6
+  }
+
+  .w3-flat-wet-asphalt {
+    color: #fff;
+    background-color: #34495e
+  }
+
+  .w3-flat-green-sea {
+    color: #fff;
+    background-color: #16a085
+  }
+
+  .w3-flat-nephritis {
+    color: #fff;
+    background-color: #27ae60
+  }
+
+  .w3-flat-belize-hole {
+    color: #fff;
+    background-color: #2980b9
+  }
+
+  .w3-flat-wisteria {
+    color: #fff;
+    background-color: #8e44ad
+  }
+
+  .w3-flat-midnight-blue {
+    color: #fff;
+    background-color: #2c3e50
+  }
+
+  .w3-flat-sun-flower {
+    color: #fff;
+    background-color: #f1c40f
+  }
+
+  .w3-flat-carrot {
+    color: #fff;
+    background-color: #e67e22
+  }
+
+  .w3-flat-alizarin {
+    color: #fff;
+    background-color: #e74c3c
+  }
+
+  .w3-flat-clouds {
+    color: #000;
+    background-color: #ecf0f1
+  }
+
+  .w3-flat-concrete {
+    color: #fff;
+    background-color: #95a5a6
+  }
+
+  .w3-flat-orange {
+    color: #fff;
+    background-color: #f39c12
+  }
+
+  .w3-flat-pumpkin {
+    color: #fff;
+    background-color: #d35400
+  }
+
+  .w3-flat-pomegranate {
+    color: #fff;
+    background-color: #c0392b
+  }
+
+  .w3-flat-silver {
+    color: #000;
+    background-color: #bdc3c7
+  }
+
+  .w3-flat-asbestos {
+    color: #fff;
+    background-color: #7f8c8d
+  }
+
+  .contact-name {
+    font-weight: 300;
+    font-family: Segoe UI;
+    text-align: right;
+  }
+</style>
+
+<body>
+
+  <!-- Links (sit on top) -->
+  <!-- <div class="w3-top">
+    <div class="w3-row w3-large w3-light-grey">
+      <div class="w3-col s3">
+        <a href="#" class="w3-button w3-block">Home</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#plans" class="w3-button w3-block">Plans</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#about" class="w3-button w3-block">About</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#contact" class="w3-button w3-block">Contact</a>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Content -->
+  <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+    <div class="w3-panel">
+      <div class="w3-cell-row">
+
+        <div class="w3-cell w3-left">
+          <h1><b>Разработка чат-ботов для Telegram.</b></h1>
+          <h3>Закажите бота <a href="https://tlg.name/theicreator">прямо сейчас</a>.</h3>
+        </div>
+
+        <div class="w3-cell w3-right" style="margin-top: 8px">
+          <h3 class="contact-name">Сергей</h3>
+          <h3 class="w3-right">
+            <a href=”tel:89788522620″>
+              <i class="fa fa-phone w3-margin-right"></i>8 978 852 26 20
+            </a>
+          </h3>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="w3-panel"></div>
+
+    <!-- Grid -->
+    <div class="w3-row w3-container">
+      <div class="w3-center w3-padding-64">
+        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Преимущества чат-бота</span>
+      </div>
+      <div class="w3-col l3 m6 w3-container w3-padding-16 w3-flat-emerald">
+        <h3 class="w3-text-white">Стоимость</h3>
+        <p>Разработка и поддержка чат-бота для Telegram <b>на порядок дешевле</b> сайта или мобильного приложения.</p>
+      </div>
+
+      <div class="w3-col l3 m6 w3-container w3-padding-16 w3-flat-peter-river">
+        <h3 class="w3-text-white">Вовлечение</h3 class="w3-text-white">
+        <p>Пользователи чат-бота практически гарантированно прочитают ваше сообщение, чего не сажешь об электронной
+          почте.</p>
+      </div>
+
+      <div class="w3-col l3 m6 w3-container w3-padding-16 w3-flat-orange">
+        <h3 class="w3-text-white">Вездесущность</h3 class="w3-text-white">
+        <p>Ваш бот одновременно доступен пользователям <b>iOS, Android, Windows и Windows Phone, Linux и Mac OS</b>.</p>
+      </div>
+
+      <div class="w3-col l3 m6 w3-container w3-padding-16 w3-flat-alizarin">
+        <h3 class="w3-text-white">Автоматизация</h3 class="w3-text-white">
+        <p>Чат-бот может заменить человека во многих процессах — сложность серверной логики не ограничена одним лишь
+          Telegram.</p>
+      </div>
+    </div>
+
+    <!-- Grid -->
+    <div class="w3-row-padding">
+      <div class="w3-center w3-padding-64">
+        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Примеры моих работ</span>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4">
+
+          <img src="bot01.PNG" style="width:100%">
+          <div class="w3-container w3-center">
+            <h2><strong>Просто спроси.</strong></h2>
+          </div>
+
+          <ul class="w3-ul">
+            <li class="w3-large w3-padding-16 w3-left">Простейший бот с подключением сервиса mail.ru.</li>
+          </ul>
+
+          <div class="w3-container w3-center">
+            <h2 class="w3-wide">от 50$</h2>
+          </div>
+
+          <button class="w3-button w3-flat-emerald w3-large w3-padding-large" style="width:100%">Протестировать</button>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4">
+
+          <img src="bot02.PNG" style="width:100%">
+          <div class="w3-container w3-center">
+            <h2><strong>AKP Signal</strong></h2>
+          </div>
+
+          <ul class="w3-ul">
+            <li class="w3-large w3-padding-16 w3-left">Торговые сигналы по ежемесячной подписке.</li>
+            <li class="w3-padding-16 w3-left"><i class="fa fa-check w3-margin-right"></i>Поддержка платежных систем</li>
+            <li class="w3-padding-16 w3-left"><i class="fa fa-check w3-margin-right"></i>Графическая админ-панель</li>
+            <li class="w3-padding-16 w3-left"><i class="fa fa-check w3-margin-right"></i>Массовая рассылка</li>
+          </ul>
+
+          <div class="w3-container w3-center">
+            <h2 class="w3-wide">от 250$</h2>
+          </div>
+
+          <button class="w3-button w3-flat-emerald w3-large w3-padding-large" style="width:100%">Протестировать</button>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4">
+
+          <img src="bot03.PNG" style="width:100%">
+          <div class="w3-container w3-center">
+            <h2><strong>TeamTeam</strong></h2>
+          </div>
+
+          <ul class="w3-ul">
+            <li class="w3-large w3-padding-16 w3-left">Полноценная Фриланс биржа внутри Telegram. </li>
+            <li class="w3-padding-16 w3-left"><i class="fa fa-check w3-margin-right"></i>Сложная архитектура базы данных</li>
+            <li class="w3-padding-16 w3-left"><i class="fa fa-check w3-margin-right"></i>Графическая админ-панель</li>
+            <li class="w3-padding-16 w3-left"><i class="fa fa-check w3-margin-right"></i>Интеграция с внешними API</li>
+          </ul>
+
+          <div class="w3-container w3-center">
+            <h2 class="w3-wide">от 400$</h2>
+          </div>
+
+          <button class="w3-button w3-flat-emerald w3-large w3-padding-large" style="width:100%">Протестировать</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="w3-center w3-padding-64" id="contact">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Давайте поговорим</span>
+    </div>
+
+    <form class="w3-container action=" mailto:ic.icreator@gmail.com" target="_blank">
+      <div class="w3-section">
+        <label>Имя</label>
+        <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Опишите задачу чат-бота</label>
+        <textarea class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message"
+          required></textarea>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-black">Отправить</button>
+    </form>
+
+  </div>
+
+  <!-- Footer -->
+
+  <footer class=" w3-container w3-padding-32 w3-light-grey w3-center">
+    <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Наверх</a>
+
+    <div class="w3-row">
+      <div class="w3-half">
+        <p>+7 978 852 26 20</p>
+        <p>Сергей, г. Симферополь</p>
+      </div>
+
+      <div class="w3-half">
+        <p><a href="https://vk.com/lofishoe"><i class="fa fa-vk w3-margin-right" aria-hidden="true"></i> vk.com/lofishoe</a></p>
+        <p><a href="skype:ic.icreator"><i class="fa fa-skype w3-margin-right" aria-hidden="true"></i>ic.icreator</a></p>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
